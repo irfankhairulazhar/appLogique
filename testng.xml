@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="main"/>
+        </run>
+    </groups>
+
+    <listeners>
+        <listener class-name="testUtils.Listerners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="appTest">
+        <classes>
+            <class name="steps.searchSteps"></class>
+            <class name="steps.searchSteps"></class>
+        </classes>
+
+    </test>
+</suite>
